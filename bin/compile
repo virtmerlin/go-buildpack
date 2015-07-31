@@ -209,7 +209,7 @@ unset GIT_DIR # unset git dir or it will mess with goinstall
 cd $p
 if test -e $build/Godeps
 then
-    step "Running: godep go install ${FLAGS[@]} ./..."
+    step "Running: godep go install - MG Edit - ${FLAGS[@]} ./..."
     godep go build "${FLAGS[@]}" ./...
 else
     step "Running: go get ${FLAGS[@]} ./..."
